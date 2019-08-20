@@ -1,3 +1,6 @@
 #!groovy
 
-buildPlugin(configurations: buildPlugin.recommendedConfigurations())
+buildPlugin(
+  configurations: buildPlugin.recommendedConfigurations(),
+  useAci: true
+)
